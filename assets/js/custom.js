@@ -16,4 +16,8 @@ $(document).ready(function () {
         prevArrow: '<button type="button" class="btn button-prev border-start"><i class="fal fa-angle-left"></i></button>',
         nextArrow: '<button type="button" class="btn button-next border-start"><i class="fal fa-angle-right"></i></button>',
     });
+
+    $('.modal').on('shown.bs.modal', function (e) {
+        $('.post-details-slider').slick('setPosition');
+    })
 })
