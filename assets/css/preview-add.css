@@ -1,0 +1,538 @@
+/*  other global start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-cyan {
+    color: #006f85 !important;
+}
+
+/* End of global */
+
+/* preview-ad-modal start */
+.preview-ad-modal .modal-header .modal-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #3e3e3e;
+}
+
+.preview-ad-modal .btn-cyan {
+    background-color: #006f85;
+    color: #fff;
+}
+
+/* preview-ad-modal top-card-item start */
+.preview-ad-modal .top-card-item .card-horizontal {
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 7.36px 0.64px rgb(0, 0, 0, 16%);
+    box-shadow: 0px 0px 7.36px 0.64px rgb(0, 0, 0, 16%);
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.preview-ad-modal .top-card-item .card-horizontal .thumbnail-img {
+    width: 165px;
+}
+
+.preview-ad-modal .top-card-item .card-horizontal .icon {
+    font-size: 30px;
+    font-weight: 600;
+    color: #5f605d;
+    padding: 0 1rem;
+}
+
+.preview-ad-modal .top-card-item .card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #343432;
+    text-transform: uppercase;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.preview-ad-modal .top-card-item .card-sub-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #a9a9a9;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* End of preview-ad-modal top-card-item  */
+
+/* top-action start */
+.preview-ad-modal .top-action {
+    background: #f5f9fa;
+    border-top: 2px solid #5f605d;
+    border-bottom: 2px solid #5f605d;
+}
+
+.preview-ad-modal .top-action .btn.border-end {
+    border-right: 1px solid #5f605d !important;
+}
+
+.preview-ad-modal .top-action .btn {
+    /* font-size: 24px; */
+    font-size: 36px;
+    font-weight: unset;
+    color: #5f605e;
+    height: 100%;
+    display: block;
+    border-radius: 0;
+}
+
+
+.preview-ad-modal .top-action .text {
+    /* padding: 10px 20px; */
+    padding: 20px 30px;
+}
+
+.preview-ad-modal .top-action .text .title {
+    /* font-size: 16px; */
+    font-size: 22px;
+    font-weight: 700;
+    color: #343432;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.preview-ad-modal .top-action .text .sub-title {
+    /* font-size: 11px; */
+    font-size: 16px;
+    font-weight: 500;
+    color: #a9a9a9;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* //End of top-action */
+
+/* top-link start */
+.preview-ad-modal .top-link .btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #006f85;
+    border-radius: 10px;
+}
+
+.preview-ad-modal .top-link .btn.active {
+    background-color: #006f85;
+    color: #fff;
+    border-color: transparent;
+}
+
+.preview-ad-modal .top-link .vr {
+    width: 2px;
+    background-color: #006f85;
+    opacity: 1;
+    height: 25px;
+    align-self: center;
+    margin: 0 5px;
+}
+
+/* //End of preview-ad-modal  top-link */
+
+
+/*  ############## preview-ad-modal  post-details start  ############## */
+
+.preview-ad-modal .post-details .banner {
+    position: relative;
+    margin-top: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.preview-ad-modal .post-details .banner .hide-post {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f6f1;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.preview-ad-modal .post-details .warning-alert {
+    background-color: #f6cb24;
+    font-size: 16px;
+    color: #676767;
+    font-weight: 600;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 101;
+}
+
+.preview-ad-modal .post-details .success-alert {
+    background-color: #7cc13e;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    width: 75%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 101;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .banner {
+        margin-top: 20px;
+    }
+
+    .preview-ad-modal .post-details .success-alert {
+        font-size: 24px;
+        width: 60%;
+    }
+
+    .preview-ad-modal .post-details .warning-alert {
+        font-size: 24px;
+    }
+}
+
+.preview-ad-modal .post-details .banner .button-prev,
+.preview-ad-modal .post-details .banner .button-next {
+    font-size: 60px;
+    line-height: 60px;
+    color: #5f605e;
+    padding: 0;
+    width: 50px;
+    height: 75px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+
+    .preview-ad-modal .post-details .banner .button-prev,
+    .preview-ad-modal .post-details .banner .button-next {
+        width: 80px;
+        height: 120px;
+        font-size: 90px;
+        line-height: 90px;
+    }
+}
+
+.preview-ad-modal .post-details .banner .button-prev:focus,
+.preview-ad-modal .post-details .banner .button-next:focus {
+    box-shadow: none;
+}
+
+.preview-ad-modal .post-details .banner .button-prev {
+    left: -10px;
+}
+
+.preview-ad-modal .post-details .banner .button-next {
+    right: -10px;
+}
+
+.preview-ad-modal .post-details .banner .pagination {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #5f605e;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .banner .pagination {
+        font-size: 24px;
+    }
+}
+
+.preview-ad-modal .post-details .banner .user-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #5f605e;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .banner .user-icon {
+        font-size: 24px;
+    }
+}
+
+.preview-ad-modal .post-details .video-picture .card {
+    border-color: transparent;
+    box-shadow: 0px 0px 5.52px 0.48px rgba(0, 0, 0, 0.29);
+    padding: 15px;
+    height: 100%;
+}
+
+.preview-ad-modal .post-details .video-picture .card .heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5f605e;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .video-picture .card .heading {
+        font-size: 24px;
+    }
+}
+
+.preview-ad-modal .post-details .video-picture .video {
+    width: 30%;
+    margin-right: 15px;
+}
+
+@media (min-width: 576px) {
+    .preview-ad-modal .post-details .video-picture .video {
+        margin-right: 30px;
+    }
+
+    .preview-ad-modal .post-details .video-picture .video .card {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.preview-ad-modal .post-details .video-picture .picture {
+    width: 70%;
+}
+
+.preview-ad-modal .post-details .video-picture .picture img {
+    border: 1px solid #242122;
+    border-radius: 4px;
+}
+
+.preview-ad-modal .post-details .profile .card {
+    border: none;
+    box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.16);
+}
+
+.preview-ad-modal .post-details .profile .card .profile-info label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f605e;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .profile .card .profile-info label {
+        font-size: 22px;
+    }
+}
+
+.preview-ad-modal .post-details .profile .card .profile-info h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #343432;
+}
+
+.preview-ad-modal .post-details .profile .card .profile-info h2.text-pink {
+    color: #872576;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .profile .card .profile-info h2 {
+        font-size: 24px;
+    }
+}
+
+.preview-ad-modal .post-details .profile .card .btn {
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    display: block;
+    padding: 1rem 0.5rem;
+    height: 100%;
+    box-shadow: 0px 0px 5.52px 0.48px rgba(0, 0, 0, 0.29);
+    transition: all 0.2s linear;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .profile .card .btn {
+        font-size: 20px;
+    }
+}
+
+.preview-ad-modal .post-details .profile .card .btn.btn-warning {
+    background: #fdb934;
+    color: #fff;
+}
+
+.preview-ad-modal .post-details .profile .card .btn.btn-info {
+    background: #00768a;
+    color: #fff;
+}
+
+.preview-ad-modal .post-details .profile .card .btn.btn-light {
+    background: #eff1ec;
+    color: #5f605e;
+}
+
+.preview-ad-modal .post-details .profile .card .btn:hover {
+    opacity: 0.9;
+}
+
+.preview-ad-modal .post-details .profile .profile-description .title {
+    font-size: 19px;
+    font-weight: 600;
+    color: #5f605e;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .profile .profile-description .title {
+        font-size: 30px;
+    }
+}
+
+.preview-ad-modal .post-details .profile .profile-description .description {
+    font-size: 12px;
+    font-weight: 400;
+    color: #5f605e;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .profile .profile-description .description {
+        font-size: 18px;
+    }
+}
+
+.preview-ad-modal .post-details .profile .profile-description .btn-light {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5f605e;
+}
+
+@media (min-width: 768px) {
+    .preview-ad-modal .post-details .profile .profile-description .btn-light {
+        font-size: 20px;
+    }
+}
+
+/* ############## end of preview-ad-modal post-details ############## */
+
+
+
+/*  ############## preview-ad-modal organizer-location start  ############## */
+.organizer-location .card {
+    border: none;
+    box-shadow: 0px 0px 7.36px 0.64px rgba(0, 0, 0, 0.16);
+}
+
+.organizer-location .section-title-cyan {
+    font-size: 20px;
+    font-weight: 600;
+    color: #006f85;
+}
+
+.organizer-location .card p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #989994;
+}
+
+@media (min-width: 768px) {
+    .organizer-location .section-title-cyan {
+        font-size: 30px;
+    }
+
+    .organizer-location .card p {
+        font-size: 17px;
+    }
+}
+
+/* ############## end of preview-ad-modal organizer-location ############## */
+
+/*// End of preview-ad-modal */
+
+
+/* ############ responsive start ############*/
+@media screen and (max-width: 767px) {
+    .top-card-item .card-horizontal .thumbnail-img {
+        width: 115px;
+    }
+
+    .top-card-item .card-horizontal .icon {
+        font-size: 18px;
+    }
+
+    .top-card-item .card-title {
+        font-size: 14px;
+    }
+
+    .top-card-item .card-sub-title {
+        font-size: 12px;
+    }
+
+    /* preview-ad-modal  top-link start */
+    .preview-ad-modal .top-link .btn {
+        font-size: 12px;
+    }
+
+    /* //End of preview-ad-modal  top-link */
+
+
+    /* top-action start */
+    .preview-ad-modal .top-action .btn {
+        font-size: 24px;
+    }
+
+    .preview-ad-modal .top-action .text {
+        padding: 10px 20px;
+    }
+
+    .preview-ad-modal .top-action .text .title {
+        font-size: 16px;
+    }
+
+    .preview-ad-modal .top-action .text .sub-title {
+        font-size: 11px;
+    }
+
+    /* //End of top-action */
+}

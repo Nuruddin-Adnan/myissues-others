@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myissues | Other-2 picture popup</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/other-popup.css">
+</head>
+
+<body>
+    <button class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#add-media-picture">Add Picture</button>
+
+    <!-- Modal add-media-picture -->
+    <div class="modal fade add-media-modal" id="add-media-picture" tabindex="-1" aria-labelledby="add-media-pictureLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <form>
+                <div class="modal-content">
+                    <div class="modal-header p-md-4 pb-0 border-bottom-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body px-md-4 pt-0 mb-4">
+                        <h5 class="add-picture-heading mb-4">Select from your phone</h5>
+                        <div class="row g-md-4 g-3">
+                            <div class="col position-relative">
+                                <input type="file" id="add-picture-input-file" class="form-control d-none">
+                                <label for="add-picture-input-file" class="add-picture-input-label py-5"><i class="fas fa-plus-circle d-block"></i>Add</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer p-md-4 border-top-0 justify-content-center">
+                        <button type="submit" class="btn w-100">Use Selected Pics <i class="far fa-angle-right ps-md-4"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--// End of Modal add-media-picture -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myissues | Other</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/slick/css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/other.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+
+<body>
+    <!-- === header section start === -->
+    <header class="header">
+        <nav class="navbar pb-3 navbar-expand navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <div class="navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="assets/images/corona.png" alt="corona" class="img-fluid" /></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="assets/images/Horn-Icon.png" alt="horn" class="img-fluid" /></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                En
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Bn</a></li>
+                                <li><a class="dropdown-item" href="#">En(UK)</a></li>
+                            </ul>
+                        </li>
+                        <div class="vr ms-sm-2 ms-3 me-2 "></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="assets/images/Menu.png" alt="MENU" class="img-fluid">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ===//end of header section === -->
+    <main class="container other">
+        <!-- === top-add section start === -->
+        <a href="#" class="top-add d-flex align-items-center d-block">
+            <div class="image flex-shrink-0">
+                <img src="assets/images/slider/Image.png" alt="add image" class="img-fluid">
+            </div>
+            <div class="flex-grow-1 text ps-3 ps-sm-4">
+                <h2 class="mb-sm-3 mb-2"> Hello Cancer Pateint </h2>
+                <p>Emilia - 27- Panhandlers - Mississauga Mar,30 2022</p>
+            </div>
+        </a>
+        <!-- ===//end of top-add section === -->
+
+
+        <!-- === other-action section start === -->
+        <div class="other-action pt-5">
+            <div class="other-action-btn d-flex">
+                <a href="others.html" class="btn btn-lg active">Description</a>
+                <a href="others-2.html" class="btn btn-lg">Photo/Video</a>
+                <button class="btn btn-lg text-nowrap show-preview-btn"><i class="far fa-eye"></i> Preview Ad</button>
+            </div>
+        </div>
+        <!-- ===//end of other-action section === -->
+
+
+
+        <!-- === create-ad section start === -->
+        <section class="create-ad mb-md-5 mb-4">
+            <div>
+                <form class="create-ad-form">
+                    <div class="bg-white p-3">
+                        <div class="row gy-md-4 gy-3">
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Advertisement Title <span class="label-indication">60 characters left</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Name <span class="label-indication">25 characters left</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-5 ms-auto">
+                                <label class="d-flex justify-content-between">Age</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Tagline<span class="label-indication">60 characters left</span></label>
+                                <input type="text" class="form-control" placeholder="Describe your best attribute in a short and catchy way">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Description<span class="label-indication">1000 characters left</span></label>
+                                <div id="editor"></div>
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">First Name</label>
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Address</label>
+                                <input type="text" class="form-control" placeholder="Address">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">City</label>
+                                <select class="form-select">
+                                    <option>City</option>
+                                    <option>City 2</option>
+                                    <option>City 3</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Province</label>
+                                <select class="form-select">
+                                    <option>Select Province</option>
+                                    <option>Province 2</option>
+                                    <option>Province 3</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Postal Code</label>
+                                <input type="text" class="form-control" placeholder="Postal Code">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Date Of Birth</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Contact Number</label>
+                                <input type="text" class="form-control" placeholder="Tel">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Email</label>
+                                <input type="text" class="form-control" placeholder="sunday2470@gmail.com">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Emergancy Contact Name</label>
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Emergancy Contact Number</label>
+                                <input type="text" class="form-control" placeholder="Tel">
+                            </div>
+                        </div>
+
+                        <h2 class="create-ad-form--heading-1 mt-5 mb-4 pt-3">Referance 1</h2>
+
+                        <div class="row gy-md-4 gy-3">
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Name</label>
+                                <input type="text" class="form-control" placeholder="Name*">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Tel</label>
+                                <input type="text" class="form-control" placeholder="Tel*">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Ext.</label>
+                                <input type="text" class="form-control" placeholder="Ext*">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Occupation</label>
+                                <input type="text" class="form-control" placeholder="Occupation*">
+                            </div>
+                            <div class="col-12">
+                                <label class="d-flex justify-content-between">Organization Name</label>
+                                <input type="text" class="form-control" placeholder="Organization Name*">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-md-5 mt-4 mb-4">
+                        <h2 class="create-ad-form--heading-1 text-cyan"> Community Range</h2>
+                        <div class="badge badge-muted">Optional</div>
+                    </div>
+                    <h2 class="create-ad-form--heading-2 my-3"><i class="fas fa-info-circle text-cyan"></i> Click on the map below to select your location</h2>
+                    <input type="text" class="form-control" placeholder="Or enter the first 3 digits of your postal code">
+
+                    <h2 class="create-ad-form--heading-2 mt-md-5 mt-4">How far you are willing to travel from your location</h2>
+                    <div class="d-flex align-items-center my-3">
+                        <input type="range" class="w-100" id="myRange" value="2" min="0" max="100">
+                        <div class="range-result"><span id="range-value">2</span> Km</div>
+                    </div>
+
+                    <h2 class="create-ad-form--heading-2  mt-md-5 mt-4 mb-3">For your privacy. please only provide your approximate location. </h2>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d323177.45933432836!2d-120.2987295!3d50.741754949999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537e2cd33d0d3b31%3A0xd23e96aa9a6945e7!2sKamloops%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sbd!4v1649180663678!5m2!1sen!2sbd" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- ===//end of create-ad section === -->
+
+
+        <!-- === ? section start === -->
+
+        <!-- ===//end of ? section === -->
+    </main>
+    <!-- === footer section start === -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="fh-responsive">
+                        <a href="#"><img src="assets/images/logo.png" alt="logo" class="img-fluid footer-logo"></a>
+                    </div>
+                    <p class="footer-description">We feed the hungry today and create solutions that will end hunger tomorrow</p>
+
+                    <h3 class="link-heading">Fundraise For</h3>
+                    <ul class="ps-0">
+                        <li><a href="#" class="footer-link">Panhandlers</a></li>
+                        <li><a href="#" class="footer-link">Homeless People</a></li>
+                        <li><a href="#" class="footer-link">Struggling Mothers</a></li>
+                        <li><a href="#" class="footer-link">Struggling Students</a></li>
+                        <li><a href="#" class="footer-link">Struggling Seniors</a></li>
+                        <li><a href="#" class="footer-link">Buskers</a></li>
+                    </ul>
+
+                    <ul class="ps-0 pink social-link">
+                        <li><a href="#" class="footer-link"><img src="assets/images/footer/fb.png" alt="logoo" class="respo-img">
+                                Facebook</a></li>
+                        <li><a href="#" class="footer-link"><img src="assets/images/footer/twit.png" alt="logoo" class="respo-img">
+                                Twitter</a></li>
+                        <li><a href="#" class="footer-link"><img src="assets/images/footer/insta.png" alt="logoo" class="respo-img">
+                                Instagram </a></li>
+                        <li><a href="#" class="footer-link"><img src="assets/images/footer/youtube.png" alt="logoo" class="respo-img">
+                                Youtube</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6">
+                    <div class="fh-responsive">
+                        <h3 class="link-heading mb-3">Quick Links</h3>
+                    </div>
+                    <ul class="ps-0">
+                        <li><a href="#" class="footer-link">About us</a></li>
+                        <li><a href="#" class="footer-link">Food Bank</a></li>
+                        <li><a href="#" class="footer-link">Agencies</a></li>
+                        <li><a href="#" class="footer-link">How it Works</a></li>
+                        <li><a href="#" class="footer-link">Advertising</a></li>
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                    </ul>
+
+                    <h3 class="link-heading pt-4">Contact Us</h3>
+                    <ul class="ps-0 cyan contact-list pb-3">
+                        <li><a href="#" class="footer-link"><img src="assets/images/footer/loc.png" alt="logo" class="respo-img-lg"> 31
+                                BloorStreet Toronto
+                                Ontario Canada</a></li>
+                        <li><a href="#" class="footer-link"><img src="assets/images/footer/call.png" alt="logo" class="respo-img">
+                                1-416-276-4369</a></li>
+                        <li><a href="#" class="footer-link"><img src="assets/images/footer/mail.png" alt="logo" class="respo-img">
+                                info@myissues.ca</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn w-100 btn-lg outline-info">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p class="copyright-text text-center m-0">Copyright © 2021 Myissues Inc. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ===//end of footer section === -->
+
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/slick/js/slick.min.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        // global tooltip
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+
+        // Text Editor for description field
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .catch(error => {
+                console.error(error);
+            });
+
+
+        // input range selector
+        const rangeSlider = document.getElementById("myRange")
+        const output = document.getElementById("range-value")
+        const min = rangeSlider.min
+        const max = rangeSlider.max
+        const value = rangeSlider.value
+
+        rangeSlider.style.background = `linear-gradient(to right, #006f85 0%, #006f85 ${(value - min) / (max - min) * 100}%, #fff ${(value - min) / (max - min) * 100}%, #fff 100%)`
+
+        rangeSlider.oninput = function () {
+            this.style.background = `linear-gradient(to right, #006f85 0%, #006f85 ${(this.value - this.min) / (this.max - this.min) * 100}%, #fff ${(this.value - this.min) / (this.max - this.min) * 100}%, #fff 100%)`;
+            output.innerHTML = this.value;
+        };
+    </script>
+</body>
+
+</html>

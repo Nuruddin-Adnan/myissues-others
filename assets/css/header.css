@@ -1,0 +1,9 @@
+.header .navbar .navbar-brand {
+   max-width: 200px;
+}
+
+@media(max-width:767px) {
+   .header .navbar .navbar-brand {
+      max-width: 145px;
+   }
+}
