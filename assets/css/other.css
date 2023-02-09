@@ -265,7 +265,6 @@ a {
     color: #fff;
 }
 
-
 /*//End of back-to-add-btn */
 
 /* add-media-modal #add-media-picture/video start */
@@ -978,6 +977,13 @@ a {
     .top-card-item .card-sub-title {
         font-size: 12px;
     }
+
+    /* back-to-add-btn */
+    .back-to-add-btn {
+        font-size: 26px;
+    }
+
+    /* //End of back-to-add-btn */
 
     /* preview-ad-modal  top-link start */
     .preview-ad-modal .top-link .btn {
