@@ -247,6 +247,27 @@ a {
 
 /*// End of media-list */
 
+/* back-to-add-btn start */
+.back-to-add-btn {
+    background-color: #006f85;
+    border-color: #006f85;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px;
+    max-width: 90%;
+    margin: 30px auto;
+    display: block;
+}
+
+.back-to-add-btn:hover {
+    background-color: #00768a;
+    color: #fff;
+}
+
+
+/*//End of back-to-add-btn */
+
 /* add-media-modal #add-media-picture/video start */
 .add-media-modal .add-picture-heading {
     font-size: 30px;
