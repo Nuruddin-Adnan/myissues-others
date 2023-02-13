@@ -260,12 +260,47 @@ a {
     display: block;
 }
 
+:not(.back-to-add-btn-check)+.back-to-add-btn:active,
 .back-to-add-btn:hover {
-    background-color: #00768a;
+    background-color: #0488a3;
     color: #fff;
 }
 
 /*//End of back-to-add-btn */
+
+/* next-prev-btn start */
+.next-prev-btn .btn {
+    background-color: #006f85;
+    border-color: #006f85;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px;
+    margin: 30px auto;
+    display: block;
+}
+
+.next-prev-btn .btn.prev-btn {
+    background-color: #EFEFEB;
+    color: #80807E;
+    border-color: #80807E;
+    margin-right: 15px;
+    padding: 15px 30px;
+}
+
+@media screen and (max-width: 575px) {
+    .next-prev-btn .btn {
+        font-size: 25px;
+    }
+}
+
+:not(.next-prev-btn-check .next-btn)+.next-prev-btn .next-btn:active,
+.next-prev-btn .next-btn:hover {
+    background-color: #0488a3;
+    color: #fff;
+}
+
+/*//End of next-prev-btn */
 
 /* add-media-modal #add-media-picture/video start */
 .add-media-modal .add-picture-heading {
@@ -467,38 +502,6 @@ a {
 
 
 /*######################## preview modal start ########################*/
-/*  other global start */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-.text-cyan {
-    color: #006f85 !important;
-}
-
-/* End of global */
 
 /* preview-ad-modal start */
 .preview-ad-modal .modal-header .modal-title {
